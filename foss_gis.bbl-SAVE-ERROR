@@ -1,0 +1,201 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{9353517}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e342cd2c12a0e4bf14e55939ff6ac476}{%
+           family={Gonzalez-Barahona},
+           familyi={G\bibinithyphendelim B\bibinitperiod},
+           given={Jesus\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e342cd2c12a0e4bf14e55939ff6ac476}
+      \strng{fullhash}{e342cd2c12a0e4bf14e55939ff6ac476}
+      \strng{bibnamehash}{e342cd2c12a0e4bf14e55939ff6ac476}
+      \strng{authorbibnamehash}{e342cd2c12a0e4bf14e55939ff6ac476}
+      \strng{authornamehash}{e342cd2c12a0e4bf14e55939ff6ac476}
+      \strng{authorfullhash}{e342cd2c12a0e4bf14e55939ff6ac476}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer}
+      \field{number}{2}
+      \field{title}{A Brief History of Free, Open Source Software and Its Communities}
+      \field{volume}{54}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{75\bibrangedash 79}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/MC.2020.3041887
+      \endverb
+      \keyw{Open source software;Licenses;Internet}
+    \endentry
+    \entry{poole2005internet}{book}{}
+      \name{author}{4}{}{%
+        {{hash=f65efe4fef0b458dc2c89c949be69beb}{%
+           family={Poole},
+           familyi={P\bibinitperiod},
+           given={H.W.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cbfe61faf96706c308f88be5792672af}{%
+           family={Lambert},
+           familyi={L\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=80c1a56ccbf7d54a44564c055f1818ae}{%
+           family={Woodford},
+           familyi={W\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7e6199180b6a48eecd8aaa5ac0d97340}{%
+           family={Moschovitis},
+           familyi={M\bibinitperiod},
+           given={C.J.P.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ABC-CLIO}%
+      }
+      \strng{namehash}{eb0f5f9d4159a54d6e8b02fab3df6bbb}
+      \strng{fullhash}{d23ebe69476cd296c81dfb39da03dcf5}
+      \strng{bibnamehash}{d23ebe69476cd296c81dfb39da03dcf5}
+      \strng{authorbibnamehash}{d23ebe69476cd296c81dfb39da03dcf5}
+      \strng{authornamehash}{eb0f5f9d4159a54d6e8b02fab3df6bbb}
+      \strng{authorfullhash}{d23ebe69476cd296c81dfb39da03dcf5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781851096596}
+      \field{number}{sv. 2}
+      \field{series}{The Internet: A Historical Encyclopedia}
+      \field{title}{The Internet: A Historical Encyclopedia}
+      \field{year}{2005}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://books.google.cz/books?id=qi-ItIG6QLwC
+      \endverb
+      \verb{url}
+      \verb https://books.google.cz/books?id=qi-ItIG6QLwC
+      \endverb
+    \endentry
+    \entry{kuhn2003}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e33a7277eb6edfd947c49ffa6e1b07f2}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Bradley\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e33a7277eb6edfd947c49ffa6e1b07f2}
+      \strng{fullhash}{e33a7277eb6edfd947c49ffa6e1b07f2}
+      \strng{bibnamehash}{e33a7277eb6edfd947c49ffa6e1b07f2}
+      \strng{authorbibnamehash}{e33a7277eb6edfd947c49ffa6e1b07f2}
+      \strng{authornamehash}{e33a7277eb6edfd947c49ffa6e1b07f2}
+      \strng{authorfullhash}{e33a7277eb6edfd947c49ffa6e1b07f2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gnu.org/bulletins/bulletin-002.html}}
+      \field{title}{{GNU Bulletin}}
+      \field{year}{2003}
+      \true{nocite}
+    \endentry
+    \entry{grass}{article}{}
+      \name{author}{2}{}{%
+        {{hash=70af675c2ded7de1b42adc8c59135233}{%
+           family={Mitasova},
+           familyi={M\bibinitperiod},
+           given={Helena},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a6fba1e432f1df94f6de62690287b36c}{%
+           family={Neteler},
+           familyi={N\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f32c18f4dffa76cf253fed4068eb2f8}
+      \strng{fullhash}{8f32c18f4dffa76cf253fed4068eb2f8}
+      \strng{bibnamehash}{8f32c18f4dffa76cf253fed4068eb2f8}
+      \strng{authorbibnamehash}{8f32c18f4dffa76cf253fed4068eb2f8}
+      \strng{authornamehash}{8f32c18f4dffa76cf253fed4068eb2f8}
+      \strng{authorfullhash}{8f32c18f4dffa76cf253fed4068eb2f8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transactions in GIS}
+      \field{number}{2}
+      \field{title}{GRASS as Open Source Free Software GIS: Accomplishments and Perspectives}
+      \field{volume}{8}
+      \field{year}{2004}
+      \true{nocite}
+      \field{pages}{145\bibrangedash 154}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1111/j.1467-9671.2004.00172.x
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-9671.2004.00172.x
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9671.2004.00172.x
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9671.2004.00172.x
+      \endverb
+    \endentry
+    \entry{assay2017}{online}{}
+      \name{author}{1}{}{%
+        {{hash=610f236caa2d7d3d6acc13d4987d318c}{%
+           family={Assay},
+           familyi={A\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{610f236caa2d7d3d6acc13d4987d318c}
+      \strng{fullhash}{610f236caa2d7d3d6acc13d4987d318c}
+      \strng{bibnamehash}{610f236caa2d7d3d6acc13d4987d318c}
+      \strng{authorbibnamehash}{610f236caa2d7d3d6acc13d4987d318c}
+      \strng{authornamehash}{610f236caa2d7d3d6acc13d4987d318c}
+      \strng{authorfullhash}{610f236caa2d7d3d6acc13d4987d318c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-11-14}
+      \field{title}{Why Microsoft and Google are now leading the open source revolution}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.techrepublic.com/article/why-microsoft-and-google-are-now-leading-the-ope
+      \endverb
+      \verb{url}
+      \verb https://www.techrepublic.com/article/why-microsoft-and-google-are-now-leading-the-ope
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
