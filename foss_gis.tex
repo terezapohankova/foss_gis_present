@@ -107,7 +107,10 @@
 
         \begin{frame}[allowframebreaks]{Organizations in FOSS}
             \begin{itemize}
-                \item Free Software Foundation (FSF)
+                \item Free Software Foundation (FSF) \hfill
+                    \begin{minipage}[t]{0.35\textwidth}
+                        \includegraphics[scale=0.03]{figs/fsf.png}
+                    \end{minipage}
                     \begin{itemize}
                         \item non-profit organization 
                         \item support of rights of FOSS users
@@ -115,10 +118,12 @@
                         \item handling legal issues
                     \end{itemize}
 
-                \item OSGeo
+               
                 
-                    \includegraphics[scale=0.07, right]{figs/osgeo-logo.png}
-                   
+                \item OSGeo \hfill % Adding horizontal space to push logo to the right
+                    \begin{minipage}[t]{0.2\textwidth}
+                        \includegraphics[scale=0.07]{figs/osgeo-logo.png}
+                    \end{minipage}
 
                     \begin{itemize}
                         \item \url{https://www.osgeo.org}
@@ -137,17 +142,108 @@
 
                     
 
-                \item Open Geospatial Consortium (OGC)
+                \item Open Geospatial Consortium (OGC) \hfill
+                    \begin{minipage}[t]{0.25\textwidth}
+                        \includegraphics[scale=0.04]{figs/ogc.png}
+                    \end{minipage}
+
                 \begin{itemize}
-                    \item
+                    \item established in 1994
+                    \item developing and producing open standards
+                    \item establish interoperation and seamless data sharing
+                    \item developed standards: WMS (Web Map Service), WFS (Web Feature Service), GML (Geography Markup Language), GPKG (GeoPackage)  
+                    \item sponsoring pilot projects with industry collaboration global membership community
                 \end{itemize}
                 
             \end{itemize}
         \end{frame}
         
-        OSGEO
-        OGC
-        GitHub x git
+        \begin{frame}{Notable FOSS GIS Projects}
+            \begin{itemize}
+                \item \textbf{QGIS (Quantum GIS)}
+                    \begin{itemize}
+                        \item Desktop GIS with user-friendly interface and extensive plugin support
+                        \item Features: vector and raster analysis, geoprocessing, and map composition
+                        \item Commonly used in urban planning, environmental monitoring, and non-profit projects
+                    \end{itemize}
+
+                \item \textbf{GRASS GIS}
+                    \begin{itemize}
+                        \item Powerful tool for geospatial data management and spatial modeling
+                        \item Strengths in environmental, ecological, and landscape analysis
+                        \item Used for land cover analysis, hydrological modeling, and more
+                    \end{itemize}
+    
+                \item \textbf{PostGIS}
+                    \begin{itemize}
+                        \item Spatial extension for PostgreSQL, a popular open-source relational database
+                        \item Provides advanced spatial functions and supports spatial SQL standards
+                        \item Used in urban planning, logistics, and telecom for managing large spatial datasets
+                    \end{itemize}
+
+                \item \textbf{GDAL/OGR (Geospatial Data Abstraction Library)}
+                    \begin{itemize}
+                        \item Core library for reading/writing geospatial data formats
+                        \item Supports data conversion, warping, and reprojection
+                        \item Backbone of many other GIS tools (e.g., QGIS, GRASS)
+                    \end{itemize}
+                \end{itemize}
+            \end{frame}
+
+        \begin{frame}{Web-Based GIS Tools}
+            \begin{itemize}
+                \item \textbf{MapServer}
+                    \begin{itemize}
+                        \item Platform for publishing spatial data and creating web-based GIS applications
+                        \item Supports OGC standards like WMS and WFS
+                        \item Used for government portals, environmental monitoring, and community projects
+                    \end{itemize}
+
+                \item \textbf{GeoServer}
+                    \begin{itemize}
+                        \item Java-based server for sharing and editing geospatial data on the web
+                        \item Integrates with data sources like PostGIS and shapefiles
+                        \item Popular for complex web mapping and real-time spatial data services
+                    \end{itemize}
+            \end{itemize}
+        \end{frame}
+
+        \begin{frame}{JavaScript Libraries for Web Mapping}
+            \begin{itemize}
+                \item \textbf{OpenLayers}
+                    \begin{itemize}
+                        \item JavaScript library for building interactive maps from various sources
+                        \item Customizable and mobile-friendly
+                        \item Used in web mapping apps and visualizing geographic data in web apps
+                    \end{itemize}
+
+                \item \textbf{Leaflet}
+                    \begin{itemize}
+                        \item Lightweight, easy-to-use JavaScript library for web maps
+                        \item Features include interactive maps with layers, markers, and popups
+                        \item Often used in lightweight applications, like tourism and local government sites
+                    \end{itemize}
+            \end{itemize}
+        \end{frame}
+
+        \begin{frame}{Specialized Analysis Tools}
+            \begin{itemize}
+                \item \textbf{PySAL (Python Spatial Analysis Library)}
+                    \begin{itemize}
+                        \item Python library for spatial data analysis, geostatistics, and econometrics
+                        \item Provides clustering, regression, and spatial pattern analysis tools
+                        \item Used in academic research, urban studies, and spatial econometrics
+                    \end{itemize}
+                \item \textbf{GDAL/OGR (Geospatial Data Abstraction Library)}
+                    \begin{itemize}
+                        \item Core library for reading and writing raster and vector geospatial data formats
+                        \item Supports data conversion, warping, and reprojection
+                        \item Serves as the backbone of many other GIS tools like QGIS and GRASS
+                    \end{itemize}
+            \end{itemize}
+        \end{frame}
+
+                
         \nocite{*}
         \frame[shrink=30]{\printbibliography[heading=bibintoc]}
     \end{document}

@@ -156,9 +156,6 @@
       \verb{doi}
       \verb https://doi.org/10.1111/j.1467-9671.2004.00172.x
       \endverb
-      \verb{eprint}
-      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-9671.2004.00172.x
-      \endverb
       \verb{urlraw}
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9671.2004.00172.x
       \endverb
@@ -193,6 +190,35 @@
       \endverb
       \verb{url}
       \verb https://www.techrepublic.com/article/why-microsoft-and-google-are-now-leading-the-ope
+      \endverb
+    \endentry
+    \entry{slideshareFOSS}{online}{}
+      \name{author}{1}{}{%
+        {{hash=999a7ab8c843326d211d0e0094dd1a70}{%
+           family={Malliga},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{999a7ab8c843326d211d0e0094dd1a70}
+      \strng{fullhash}{999a7ab8c843326d211d0e0094dd1a70}
+      \strng{bibnamehash}{999a7ab8c843326d211d0e0094dd1a70}
+      \strng{authorbibnamehash}{999a7ab8c843326d211d0e0094dd1a70}
+      \strng{authornamehash}{999a7ab8c843326d211d0e0094dd1a70}
+      \strng{authorfullhash}{999a7ab8c843326d211d0e0094dd1a70}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-11-14}
+      \field{title}{FOSS Presentation}
+      \field{year}{n.d.}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.slideshare.net/slideshow/foss-72628175/72628175#34
+      \endverb
+      \verb{url}
+      \verb https://www.slideshare.net/slideshow/foss-72628175/72628175#34
       \endverb
     \endentry
   \enddatalist
